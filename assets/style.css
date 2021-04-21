@@ -1,0 +1,41 @@
+body{
+max-width: 100%;
+padding:0;
+text-align: center;
+margin: 50px;
+
+}
+h1{
+text-underline-position: below;
+
+}
+
+p{
+font-size: large;
+font-weight: bold;
+    
+}
+
+h2{
+font-size: large;
+font-weight: bold;
+margin-top: -10%;
+
+}
+h3{
+margin-top: 10%;
+font-size: medium;
+font-weight: normal;
+text-align: left;
+margin-left: 10%;
+}
+div{
+padding: 10%;
+margin: 30px;
+background-color:rgba(134, 134, 134, 0.603);
+font-weight: bolder;
+border-radius: 50px;
+border: black;
+border-style: inset;
+border-width: 3px;
+}
