@@ -24,8 +24,30 @@ padding:10px;
 
 .btn{
 display: grid;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+
+.btns{
+    --hue: var (--hue-nuetral);
+    background-color: aqua;
+    box-shadow: 0 0 1px 1px;
+    padding:5px;
+    margin: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.btns:hover{
+border-color:black;
+border-radius: 6px;
+}
+.btnscorrect{
 
 }
+.incorrect{
+
+}
+
 #question{
 margin-top: 5%;
 display: flex;
@@ -36,45 +58,22 @@ text-align: center;
 
 
 
-
-p{
-font-size: large;
-font-weight: bold;
-
+.start-btn{
+font-size: 30px;
+font-weight: bolder;
+padding:10px;
 }
-
-h2{
-display:flex
-font-size: large;
-font-weight: bold;
-margin-top: 2%;
-margin-bottom: 5%;
-
-}
-button{
-text-align: center;
-margin-top: 10%;
-font-size: medium;
-font-weight: normal;
-text-align: center;
-margin-left: 10%;
-}
-
-
-
-button.Next-btn:hover{
-    font-weight: bold;
-    
+.next-btn{
+    font-size: 30px;
+    font-weight: bolder;
+    padding:10px;
     }
 
-    
-button.Next-btn{
-padding-left: 5%;
-padding-right: 5%;
+.controls{
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
-
-ul{
-margin: 0;
-justify-content: center;
-
+.hide{
+    display:none;
 }
