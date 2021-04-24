@@ -5,16 +5,76 @@ const questionEl = document.getElementById("question")
 const answerbtn= document.getElementById("answers")
 let currentQuestionIndex
 Start.addEventListener("click", StartQ)
+
+
+
+
+///Functions
 function StartQ(){
 Start.classList.add("hide")
 QuestionContainer.classList.remove("hide")
 shuffledQ = questions.sort(() => Math.random() - .5)
 currentQIndex = 0
 console.log("This function is running")
+SetN()
 }
-function ClickedAnswer(){
-console.log("This function is running")
+
+function SetN() {
+    showQ(shuffledQ[currentQIndex])
+    
+    }
+
+function resetState(){
+    Next.classList.add("hide")
+    while(answerbtn.firstchild){
+    answerbtn.removeChild
+    (answerbtn.firstChild)
+    }
+    }
+
+
+
+
+Next.addEventListener("click", NextQ)
+function NextQ(){
+resetState()
+currentQuestionIndex++
+if (currentQuestionIndex < questions.length) {
+correct(e.target.innerText == NextQ.answer)
+answers.innerHTML=""
+if (currentQuestionIndex < questions.length) {
+NextQ=questions[currentQuestionIndex]
+displayQuestion(NextQ)
 }
+else{
+    currentQIndex=0 
+    displayQuestion(NextQ)}
+
+}
+}
+function Quiz(questions){
+this.score = 0;
+this.questions = questions;
+this.questionIndex = 0;
+}
+
+
+function Question(text, choices, answer) {
+        this.text = text;
+        this.choices = choices;
+        this.answer = answer;
+       
+        }
+    
+    Question.prototype.correctAnswer = function(choice){
+         return choice === this.answer;
+     }
+
+   
+   
+
+
+     /// Questions ///
 const questions = [{
     question: "Hello",
     answers: [
@@ -57,34 +117,3 @@ const questions = [{
 },
 
 ]
-function showQ(question) {
-    questionEl.innerText = question.question
-    question.answers.forEach(answer => {
-    })
-    }
-Next.addEventListener("click", NextQ)
-function NextQ(){
-resetState()
-currentQuestionIndex++
-if (currentQuestionIndex < questions.length) {
-correct(e.target.innerText == NextQ.answer)
-answers.innerHTML=""
-if (currentQuestionIndex < questions.length) {
-NextQ=questions[currentQuestionIndex]
-displayQuestion(NextQ)
-}
-else{
-    currentQIndex=0 
-    displayQuestion(NextQ)}
-
-    
-}
-
-}
-function resetState(){
-    Next.classList.add("hide")
-    while(answerbtn.firstchild){
-    answerbtn.removeChild
-    (answerbtn.firstChild)
-    }
-    }
