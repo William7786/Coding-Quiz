@@ -12,3 +12,5 @@ Added show Q function.
 Added question index and shuffled question.   
 Also created a nextbutton function with a event listener.   
 Put 4 more questions   
+Added next element to fix error.
+Put a new questionEl and a AnswerEl.   

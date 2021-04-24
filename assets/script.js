@@ -1,5 +1,8 @@
 const Start = document.getElementById("startbtn")
+const Next= document.getElementById("nextbtn")
 const QuestionContainer = document.getElementById("QuestionC1")
+const questionEl = document.getElementById("question")
+const answerbtn= document.getElementById("answers")
 Start.addEventListener("click", StartQ)
 function StartQ(){
 Start.classList.add("hide")
