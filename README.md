@@ -14,3 +14,6 @@ Also created a nextbutton function with a event listener.
 Put 4 more questions   
 Added next element to fix error.
 Put a new questionEl and a AnswerEl.   
+added Let for question index.   
+added and Worked on functionality of Nextq function.   
+Also put in a reset state function.   
