@@ -8,4 +8,6 @@ Added more css and created a hide class to hide the question unteil you click st
 Worked on Start button functionality  
 Also added back old questions into Html
 Added Question and answer array.   
-Added show Q function
+Added show Q function.   
+Added question index and shuffled question.   
+Also created a nextbutton function with a event listener.   

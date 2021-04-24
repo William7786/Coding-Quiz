@@ -24,7 +24,11 @@ const questions = [{
 function showQ(question) {
     questionEl.innerText = question.question
     question.answers.forEach(answer => {
-        
-    
     })
     }
+Next.addEventListener("click", NextQ)
+function NextQ(){
+resetState()
+showQ(shuffledQuestions[currentQuestionIndex])
+
+}
