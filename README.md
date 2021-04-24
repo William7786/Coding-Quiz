@@ -7,3 +7,5 @@ Deleted other quiz boxes to keep it simple.
 Added more css and created a hide class to hide the question unteil you click start.
 Worked on Start button functionality  
 Also added back old questions into Html
+Added Question and answer array.   
+Added show Q function
