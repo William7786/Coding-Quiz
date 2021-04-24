@@ -19,8 +19,40 @@ const questions = [{
         {text: "c", Incorrenct: false},
         {text: "d", Incorrect: false},
     ]
-   
-}]
+},
+{   question: "Hello",
+    answers: [
+        {text: "a", correct: true},
+        {text: "b", Incorrect: false},
+        {text: "c", Incorrenct: false},
+        {text: "d", Incorrect: false},
+]
+},
+{   question: "Hello1",
+    answers: [
+        {text: "a", correct: true},
+        {text: "b", Incorrect: false},
+        {text: "c", Incorrenct: false},
+        {text: "d", Incorrect: false},
+]
+
+},{ question: "Hello2",
+    answers: [
+        {text: "a", correct: true},
+        {text: "b", Incorrect: false},
+        {text: "c", Incorrenct: false},
+        {text: "d", Incorrect: false},
+]
+},{ question: "Hello3",
+    answers: [
+        {text: "a", correct: true},
+        {text: "b", Incorrect: false},
+        {text: "c", Incorrenct: false},
+        {text: "d", Incorrect: false},
+]
+},
+
+]
 function showQ(question) {
     questionEl.innerText = question.question
     question.answers.forEach(answer => {
