@@ -19,3 +19,6 @@ added and Worked on functionality of Nextq function.
 Also put in a reset state function.   
 Working on new functions and Organizing Javascript
 Fixed all errors    
+Changed text to choices in array.   
+added new variables
+attempted to add new button elements from script.   
