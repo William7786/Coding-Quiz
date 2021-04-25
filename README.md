@@ -23,9 +23,12 @@ Changed text to choices in array.
 added new variables
 attempted to add new button elements from script.  
 Decided to start javascript from scratch and implement my older code to follow functionality.
+              //AFter New Script//
+Next i continued to work on the functionality of the next button and finished the functionality of the showq function.
 
 
-New Script:
+
+New Script(practice for understanding):
 
 Reworked html-  Thiis includes removing unneeded code like the next button and adding more descriptive id's for the buttons. 
 Put back hide on questionC.   added back Start function.

@@ -70,6 +70,10 @@ else{
 
 
 function ClickedAnswer(e) {
+const Clickedbtn = e.target
+const correct = selectedButton.dataset.correct
+setclass(document.body, correct)
+Array.from(answerbtn.children)
 }
 
 
