@@ -21,4 +21,5 @@ Working on new functions and Organizing Javascript
 Fixed all errors    
 Changed text to choices in array.   
 added new variables
-attempted to add new button elements from script.   
+attempted to add new button elements from script.  
+Decided to start javascript from scratch and implement my older code to follow functionality.
