@@ -17,3 +17,4 @@ Put a new questionEl and a AnswerEl.
 added Let for question index.   
 added and Worked on functionality of Nextq function.   
 Also put in a reset state function.   
+Working on new functions and Organizing Javascript
