@@ -28,7 +28,7 @@ margin-top: 15px;
 margin-bottom: 10px;
 }
 
-.btns{
+.btn{
     --hue: var (--hue-nuetral);
     background-color: aqua;
     box-shadow: 0 0 1px 1px;
