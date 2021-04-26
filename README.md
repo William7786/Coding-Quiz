@@ -39,5 +39,6 @@ added quiz list and quiz function.   Im going to use this new script as referanc
 Final: 
 reworked Html.
 added new variables to js file.   
-Start button now displays questions.   
+Start button now displays Html questions.   
 fixed timer to countdown after start click.  
+Fixed quiz function to display the questions in javascript.
