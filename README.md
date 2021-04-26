@@ -29,8 +29,13 @@ Running into alot of errors working on fix
 
 
 
+
 New Script(practice for understanding):
 
 Reworked html-  Thiis includes removing unneeded code like the next button and adding more descriptive id's for the buttons. 
 Put back hide on questionC.   added back Start function.
 added quiz list and quiz function.   Im going to use this new script as referance.
+
+Final: 
+reworked Html.
+added new variables to js file.   

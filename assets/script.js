@@ -1,11 +1,18 @@
-const Start = document.getElementById("startbtn")
-const QuestionContainer = document.getElementById("Quiz")
-const questionEl = document.getElementById("question")
-const answerbtn= document.getElementById("answersbtn")
-var Timer = document.getElementById(timer)
-var TimerI;
-var Timeleft= 60;
-let shuffledQ, currentQIndex
+var Start = document.getElementById("Start")
+var quiz = document.getElementById("Quiz");
+var questionsEl = document.getElementById(question);
+var Timer = document.getElementById(timer);
+var buttonA1 = document.getElementById("btn1")
+var buttonA1 = document.getElementById("btn2")
+var buttonA1 = document.getElementById("btn3")
+var buttonA1 = document.getElementById("btn4")
+var results = document.getElementById("Yourscore")
+var end = document.getElementById("End")
+var fQI = quizQuestions.length;
+var CQI = 0;
+var Timeleft = 60;
+var TimeI;
+
 
 
 
@@ -16,7 +23,7 @@ let shuffledQ, currentQIndex
 Start.addEventListener("click", StartQ)
 function StartQ(){
 Start.classList.add("hide")
-QuestionContainer.classList.remove("hide")
+quiz.classList.remove("hide")
 shuffledQ = questions.sort(() => Math.random() - .5)
 currentQIndex = 0
 
@@ -35,30 +42,6 @@ Timer.textCo = + Timeleft;
 
 
 
-function SetN() {
-showQ(shuffledQ[currentQIndex])
-
-}
-
-
-
-function showQ() {
-    if (currentQIndex === final)
-    var current = quizQuestions[currentQIndex];
-    questionsEl.innerHtml= currentQ
-}
-
-
-
-
-
-
-function ClickedAnswer(answers) {
-const Clickedbtn = e.target
-const correct = selectedButton.dataset.correct
-setclass(document.body, correct)
-Array.from(answerbtn.children)
-}
 
 
 
