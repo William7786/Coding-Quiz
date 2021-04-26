@@ -25,6 +25,7 @@ attempted to add new button elements from script.
 Decided to start javascript from scratch and implement my older code to follow functionality.
               //AFter New Script//
 Next i continued to work on the functionality of the next button and finished the functionality of the showq function.
+Running into alot of errors working on fix
 
 
 

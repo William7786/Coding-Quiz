@@ -11,17 +11,24 @@
 <body>
     
 
-    <div class = "container">
-        <div id="QuestionC" class= "hide">
-            <div id ="question">Q1</div>
-            <div id="answersbtn" class = "btn">
-              <button class="btns hide">Answer 1</button>
-              <button class="btns hide">Answer 2</button>
-              <button class="btns hide">Answer 3</button>
-              <button class="btns hide">Answer 4</button>   
-            </div>
+    <div class = "Quizcontainer">
+        <div id ="Start">
+            <h1>Welcome to the quiz!</h1>
         </div>
-        
+        <button id = "SavedHighScores" onclick="showHSC()">Leaderboards</button>
+        <div id="Quiz">
+        <div id = "timer"></div>
+            <div id ="question">Q1</div>
+              <button id="btn1" onclick="check(A1)">Answer 1</button>
+              <button id="btn1" onclick="check(A2)">Answer 2</button>
+              <button id="btn1" onclick="check(A3)">Answer 3</button>
+              <button id="btn1" onclick="check(A4)">Answer 4</button>
+            <div id = "YourScore"></div>
+            </div>
+        </div id = "End">
+        <div id = leaderboardC></div>
+        <h1>Initials:</h1>
+        <h1>Scores:</h1>
         <div class="controls">
             <button id="startbtn" class="start-btn">Start!</button>
             <button id="nextbtn" class="next-btn btn hide">Next</button>
@@ -30,5 +37,5 @@
 
 
 </body>
-    <script src = "assets/script.js"></script>
+    <script src = "assets/script.j"></script>
 </html>
