@@ -12,8 +12,8 @@ var end = document.getElementById("End")
 
 // var fQI = quizQuestions.length;
 var CQI = 0;
-var Timeleft = 60;
-var TimeI;
+var TimeLeft = 60;
+var timer;
 
 
 
@@ -27,14 +27,17 @@ function StartQ(){
 Start.classList.add("hide")
 quiz.classList.remove("hide")
 console.log("This function is running")
-TimerI = setInterval(function() {
-Timeleft
-Timer.textCo = + Timeleft;
-    if(timeLeft === 0){
-    clearInterval(TimerI)
-    showScore();
+
+timerInterval = setInterval(function() {
+    
+    TimeLeft--;
+    Timer.textContent = "Time: " + TimeLeft;
+
+    if(TimeLeft === 0) {
+      clearInterval(timerInterval);
+      showScore();
     }
-}, 1000);
+  }, 1000);
 }
 
 

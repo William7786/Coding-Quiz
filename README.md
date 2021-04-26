@@ -40,3 +40,4 @@ Final:
 reworked Html.
 added new variables to js file.   
 Start button now displays questions.   
+fixed timer to countdown after start click.  
