@@ -43,27 +43,28 @@ choiceD.innerHTML = currentQuestion.tectd;
         texta: "easy", 
         textb: "increadibly easy", 
         textc: "confusing", 
+        textd: "kindof",
         correct:"c"},
         
-        {question: "Hello2",
-        texta: "no",
-        textb: "yes",
-        textc: "maybe",
-        textd: "maybenot",
+        {question: "What color is the Javascript logo?",
+        texta: "purple",
+        textb: "yellow",
+        textc: "orange",
+        textd: "Bright Blue",
         correct:"b"},
 
-        {question: "Hello3",
-        texta: "no",
-        textb: "yes",
-        textc: "maybe",
-        textd: "maybenot",
+        {question: "What is css used for?",
+        texta: "Styling",
+        textb: "Text Content",
+        textc: "Scripts",
+        textd: "What is css?",
         correct:"a"},
 
-        {question: "Hello4",
-        texta:"no",
-        textb:"yes",
-        textc:"maybe",
-        textd: "maybenot",
+        {question: "How old is Html?",
+        texta:"40 Years",
+        textb:"55 Years",
+        textc:"10 Years",
+        textd: "28 Years",
         correct: "d"},
     ];
 
@@ -72,7 +73,7 @@ function check(answer){
     correct = questions[currentQuestionIndex].correct;
     if (answer === correct && currentQuestionIndex !==fQI) {
     confirm("Correct!");
-    currentQuestionIndex+1;
+    currentQuestionIndex++;
     QuizQ();
     }
     if ( answer !== correct){
