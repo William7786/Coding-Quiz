@@ -39,11 +39,10 @@ choiceD.innerHTML = currentQuestion.tectd;
 }
 //Questions
     var questions = [{
-        question: "Hello1",
-        texta: "hi", 
-        textb: "hey", 
-        textc: "Bye",
-        textd: "no", 
+        question: "How hard is javascript?",
+        texta: "easy", 
+        textb: "increadibly easy", 
+        textc: "confusing", 
         correct:"c"},
         
         {question: "Hello2",
@@ -54,32 +53,33 @@ choiceD.innerHTML = currentQuestion.tectd;
         correct:"b"},
 
         {question: "Hello3",
-        texta:"no",
-        textb:"yes",
-        textc:"maybe",
+        texta: "no",
+        textb: "yes",
+        textc: "maybe",
         textd: "maybenot",
-        correct: "btn2"},
+        correct:"a"},
 
         {question: "Hello4",
         texta:"no",
         textb:"yes",
         textc:"maybe",
         textd: "maybenot",
-        correct: "btn2"},
+        correct: "d"},
     ];
 
 
 function check(answer){
     correct = questions[currentQuestionIndex].correct;
-    if (answer === correct ) {
-    
-    confirm("Correct!")
+    if (answer === correct && currentQuestionIndex !==fQI) {
+    confirm("Correct!");
+    currentQuestionIndex+1;
+    QuizQ();
+    }
+    if ( answer !== correct){
+    confirm("Incorrect! -5 seconds")
     currentQuestionIndex++;
-    QuizQ()
-    }else( answer !== correct)
-    currentQuestionIndex++;
-    TimeLeft--;
-    
+    TimeLeft -= 5;
+    QuizQ();}
    
         
 };
