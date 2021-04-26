@@ -14,20 +14,20 @@
     <div class = "container" class="hide">
     
             <h1>Welcome to the quiz!</h1>
-        
-        
+        <div id = leaderboardC></div>
+        <button id = "SavedHighScores" onclick="showHSC()">Leaderboards</button>
         <div id="Quiz" class="hide">
-        <div id = "timer">Time:</div>
-            <div id ="question">Q1</div>
-              <button id="btn1" onclick="check(A1)">Answer 1</button>
-              <button id="btn2" onclick="check(A2)">Answer 2</button>
-              <button id="btn3" onclick="check(A3)">Answer 3</button>
-              <button id="btn4" onclick="check(A4)">Answer 4</button>
+        <div id = "timer"></div>
+            <div id ="question"><p>q</p></div>
+              <button id="a" onclick="check('a')">A</button>
+              <button id="b" onclick="check('b')">B</button>
+              <button id="c" onclick="check('c')">C</button>
+              <button id="d" onclick="check('d')">D</button>
             <div id = "YourScore"></div>
             </div>
         </div id = "End">
-        <div id = leaderboardC></div>
-        <button id = "SavedHighScores" onclick="showHSC()">Leaderboards</button>
+        
+        
         <div id = "initials"></div>
         <div id = "Score"></div>
         <div class="controls">
