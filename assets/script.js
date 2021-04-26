@@ -37,21 +37,6 @@ choiceB.innerHTML = currentQuestion.textb;
 choiceC.innerHTML = currentQuestion.textc;
 choiceD.innerHTML = currentQuestion.tectd;
 }
-
-
-function check(answer){
-    correct = questions[currentQuestionIndex].correct;
-    if (answer === correct ) {
-    score++
-    currentQuestionIndex++
-    QuizQ()
-    }else( answer !== correct)
-    TimeLeft--;
-    
-   
-        
-};
-
 //Questions
     var questions = [{
         question: "Hello1",
@@ -59,32 +44,49 @@ function check(answer){
         textb: "hey", 
         textc: "Bye",
         textd: "no", 
-        correctAnswer:"btn3"},
+        correct:"c"},
         
         {question: "Hello2",
-        texta:"no",
-        textb:"yes",
-        textc:"maybe",
+        texta: "no",
+        textb: "yes",
+        textc: "maybe",
         textd: "maybenot",
-        correctAnswer: "btn2"},
+        correct:"b"},
 
         {question: "Hello3",
         texta:"no",
         textb:"yes",
         textc:"maybe",
         textd: "maybenot",
-        correctAnswer: "btn2"},
+        correct: "btn2"},
 
         {question: "Hello4",
         texta:"no",
         textb:"yes",
         textc:"maybe",
         textd: "maybenot",
-        correctAnswer: "btn2"},
+        correct: "btn2"},
     ];
 
+
+function check(answer){
+    correct = questions[currentQuestionIndex].correct;
+    if (answer === correct ) {
+    
+    confirm("Correct!")
+    currentQuestionIndex++;
+    QuizQ()
+    }else( answer !== correct)
+    currentQuestionIndex++;
+    TimeLeft--;
+    
+   
+        
+};
+
+
 var fQI = questions.length;
-var currentQuestionIndex = 1;
+var currentQuestionIndex = 0;
 var TimeLeft = 60;
 var timer;
  var correct;

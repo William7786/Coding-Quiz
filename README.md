@@ -42,3 +42,4 @@ added new variables to js file.
 Start button now displays Html questions.   
 fixed timer to countdown after start click.  
 Fixed quiz function to display the questions in javascript.
+Moved questions up higher in the code seems to work.
