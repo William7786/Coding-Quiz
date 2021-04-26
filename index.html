@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
-    <link rel ="stylesheet" href="assets/style.cs">
+    <link rel ="stylesheet" href="assets/style.css">
 </head>
 
 <body>
     
 
-    <div class = "Quizcontainer">
-        <div id ="Start">
+    <div class = "container" class="hide">
+    
             <h1>Welcome to the quiz!</h1>
-        </div>
-        <button id = "SavedHighScores" onclick="showHSC()">Leaderboards</button>
-        <div id="Quiz">
+        
+        
+        <div id="Quiz" class="hide">
         <div id = "timer"></div>
             <div id ="question">Q1</div>
               <button id="btn1" onclick="check(A1)">Answer 1</button>
@@ -27,16 +27,16 @@
             </div>
         </div id = "End">
         <div id = leaderboardC></div>
-        <h1>Initials:</h1>
-        <h1>Scores:</h1>
+        <button id = "SavedHighScores" onclick="showHSC()">Leaderboards</button>
         <div id = "initials"></div>
         <div id = "Score"></div>
         <div class="controls">
             <button id="startbtn" class="start-btn">Start!</button>
         </div>
+        </div>
 
 
 
 </body>
-    <script src = "assets/script.j"></script>
+    <script src = "assets/script.js"></script>
 </html>

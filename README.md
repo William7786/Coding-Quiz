@@ -39,3 +39,4 @@ added quiz list and quiz function.   Im going to use this new script as referanc
 Final: 
 reworked Html.
 added new variables to js file.   
+Start button now displays questions.   
