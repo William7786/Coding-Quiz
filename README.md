@@ -45,3 +45,7 @@ Fixed quiz function to display the questions in javascript.
 Moved questions up higher in the code seems to work.
 Incorrect subtracts 5 seconds now!.
 Added functioning Css attrabutes.
+Added Actual Questions.
+minor bug fixes and added new hiding and showing classes.
+lowered time to 30 seconds
+added new variables.
