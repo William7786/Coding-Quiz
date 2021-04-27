@@ -72,6 +72,14 @@ choiceD.innerHTML = currentQuestion.tectd;
         textd: "28 Years",
         correct: "d"},
 
+        {question: "Which is your favorite?",
+        texta:"css",
+        textb:"html",
+        textc:"Javascript",
+        correct: "a",
+        correct: "b",
+        correct: "c",
+        }
 
     ];
 
@@ -99,9 +107,15 @@ quiz.classList.add("hide")
 end.classList.remove("hide")   
 Yourscore.classList.remove("hide")
 }
+if (TimeLeft<0) {
+    quiz.classList.add("hide")
+    end.classList.remove("hide")   
+    Yourscore.classList.remove("hide")
+    }
 if(fQI){
 quiz.classList.add("hide")
-end.classList.remove("hide")    
+end.classList.remove("hide")
+Yourscore.classList.remove("hide")
 }
 
 

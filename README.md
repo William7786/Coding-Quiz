@@ -49,3 +49,4 @@ Added Actual Questions.
 minor bug fixes and added new hiding and showing classes.
 lowered time to 30 seconds
 added new variables.
+![Code-Quiz](https://user-images.githubusercontent.com/80493413/116318214-69599e00-a782-11eb-889f-fbc927711087.png)
