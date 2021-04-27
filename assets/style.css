@@ -127,7 +127,7 @@ padding:10px;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
-background-color: aqua;
+/* background-color: aqua; */
 }
 #score{
 display:flex;

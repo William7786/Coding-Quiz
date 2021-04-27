@@ -39,7 +39,7 @@ questionsEl.innerHTML =  "<p>" + currentQuestion.question + "</p>"
 choiceA.innerHTML = currentQuestion.texta;
 choiceB.innerHTML = currentQuestion.textb;
 choiceC.innerHTML = currentQuestion.textc;
-choiceD.innerHTML = currentQuestion.tectd;
+choiceD.innerHTML = currentQuestion.textd;
 
 }
 //Questions
@@ -76,9 +76,11 @@ choiceD.innerHTML = currentQuestion.tectd;
         texta:"css",
         textb:"html",
         textc:"Javascript",
+        textd: "bootstrap",
         correct: "a",
         correct: "b",
         correct: "c",
+        correct: "d",
         }
 
     ];
